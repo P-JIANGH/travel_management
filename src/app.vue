@@ -5,16 +5,6 @@
     <!-- Statusbar -->
     <f7-statusbar></f7-statusbar>
 
-    <!-- Left Panel -->
-    <f7-panel left reveal theme-dark>
-      <f7-view url="/panel-left/"></f7-view>
-    </f7-panel>
-
-    <!-- Right Panel -->
-    <f7-panel right cover theme-dark>
-      <f7-view url="/panel-right/"></f7-view>
-    </f7-panel>
-
     <!-- Main View -->
     <f7-view id="main-view" url="/" main></f7-view>
 
@@ -69,8 +59,8 @@ export default {
     return {
       // Framework7 parameters here
       f7params: {
-        id: 'io.framework7.testapp', // App bundle ID
-        name: 'Framework7', // App name
+        id: 'com.jiangh.demo', // App bundle ID
+        name: '出差管理OA', // App name
         theme: 'auto', // Automatic theme detection
         // App routes
         routes: routes,
