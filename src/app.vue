@@ -64,6 +64,10 @@ export default {
         theme: 'auto', // Automatic theme detection
         // App routes
         routes: routes,
+        dialog: {
+          buttonOk: '确定',
+          buttonCancel: '取消'
+        },
       },
     }
   }
